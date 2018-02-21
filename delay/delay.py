@@ -35,7 +35,8 @@ def delay(float, str="second"):
 	if (str == "second"):
                 time.sleep(float)
         elif (str == "minute"):
-                time.sleep(float * 60)
+                #time.sleep(float * 60)
+                return(float * 60)
         elif (str == "hour"):
                 time.sleep(float * 60 * 60)
         elif (str == "day"):
